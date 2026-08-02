@@ -1,8 +1,27 @@
 aid: superquickquestion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superquickquestion.png
 name: SuperQuickQuestion
-description: SuperQuickQuestion is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  SuperQuickQuestion (SQQ) is a fan-engagement platform that hosts brief, 60-second
+  one-on-one live video interactions between fans and celebrities, athletes, and
+  musicians. It is web-based with no app download required, uses industry-standard
+  encryption, and removes traditional event logistics (travel, hotels, agent
+  back-and-forth) so talent only needs WiFi and a camera device while fans receive
+  brand- or team-sponsored free access. Early clients include professional sports
+  organizations such as the Washington Wizards, Cleveland Browns, Washington
+  Mystics, Wrexham AFC, and talent like Ric Flair. No public API, developer portal,
+  or SDK surface is currently published; this remains a consumer product profile.
 url: https://raw.githubusercontent.com/api-evangelist/superquickquestion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Fan Engagement
+- Sports
+- Entertainment
+- Live Video
+- Celebrity
+- Marketing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://superquickquestion.com/
+- type: TermsOfService
+  url: https://www.superquickquestion.com/terms_of_use
+- type: PrivacyPolicy
+  url: https://www.superquickquestion.com/privacy
+- type: DomainSecurity
+  url: security/superquickquestion-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
