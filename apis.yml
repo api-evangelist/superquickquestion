@@ -49,9 +49,9 @@ tags:
 - Fan Engagement
 - Sports
 - Entertainment
-- Live Video
 - Celebrity
 - Marketing
+- Video Calling
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -72,3 +72,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Live Video
